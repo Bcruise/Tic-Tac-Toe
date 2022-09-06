@@ -1,0 +1,157 @@
+.grid {
+  margin: 14.5vh 25vw;
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line-div {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.box-one, .box-two, .box-three, .box-four, .box-five, .box-six, .box-seven, .box-eight, .box-nine {
+  width: 33.33%;
+  height: 99.5%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.box-one {
+  border-left: none;
+  border-top: none;
+}
+
+.box-two {
+  border-top: none;
+  border-left: none;
+}
+
+.box-three {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.box-four {
+  border-left: none;
+  border-bottom: none;
+}
+
+.box-five {
+  border-left: none; 
+  border-right: none;
+  border-bottom: none;
+}
+
+.box-six {
+  border-right: none;
+  border-bottom: none;
+}
+
+.box-seven {
+  border-left: none;
+  border-bottom: none;
+}
+
+.box-eight {
+  border-bottom: none;
+  border-left: none;
+}
+
+.box-nine {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.button-div{
+  width: 99vw;
+  margin: 0;
+  margin-top: -7.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ng-button {
+  width: 140px;
+  height: 35px;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.players-scores-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -10vh;
+}
+
+.scores-span {
+  margin-right: 12.5vw;
+  margin-left: 12.5vw;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.score-one {
+  color: blue;
+}
+
+.score-two {
+  color: red;
+}
+
+.input-section {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: auto;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.submit-button {
+  width: 350px;
+  background-color: green;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  height: 35px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.player-one-enter, .player-two-enter {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.input-main-page {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
